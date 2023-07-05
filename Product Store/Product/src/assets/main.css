@@ -1,0 +1,12 @@
+@import './base.css';
+
+*,*::before,*::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.items+.items{
+  margin-left: 7rem;
+}
